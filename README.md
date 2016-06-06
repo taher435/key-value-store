@@ -19,7 +19,8 @@
 	$ bundle install
 
 	```  
- 3. Start rails server
+3. Start rails server
+ 
  
  	```
  	$ rails c
