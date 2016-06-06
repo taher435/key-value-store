@@ -2,6 +2,7 @@
 
 ### Languages and Tools Used
 1. Ruby on Rails for API
+2. RSpec Rails for Unit testing
 2. Redis for key value storage
 3. Heroku for hosting live site
 
@@ -70,3 +71,10 @@ Response
   }
 }
 ```
+
+- - -
+
+#### Note
+All the code for adding key value and retrieving key value based on timestamp version can be found in - [store.rb](https://github.com/taher435/key-value-store/blob/master/app/models/store.rb)
+
+Unit tests for the model can be found in - [store_spec.rb](https://github.com/taher435/key-value-store/blob/master/spec/store_spec.rb)
