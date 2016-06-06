@@ -15,7 +15,7 @@ class StoreController < ApplicationController
   #[GET] /store/:key
   def get
     key = params[:key]
-    timestamp = params[:timestamp].to_i
+    timestamp = params[:timestamp]
 
     value = Store.new.get(key, timestamp)
 
